@@ -28,9 +28,6 @@ jobs:
         with:
           version: 12
       
-      - name: Cache
-        uses: actions/cache@v2.1.4
-      
       - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
