@@ -22,7 +22,8 @@ const Home = ({ products }) => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} style={{ textAlign: 'center'}}>
                     <img src={puma_logo} 
-                    className={classes.image} />
+                    className={classes.image}
+                    alt="puma logo" />
                 </Grid>
             </Grid>
             <Grid container className={classes.categories}>
@@ -59,7 +60,8 @@ const Home = ({ products }) => {
             <ProductsSlider products={products} />
             <Grid conatiner>
                 <img src="https://images.unsplash.com/photo-1570425387687-d2a34c7304a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-                style={{maxHeight: '500px', width: '100%'}}/>
+                style={{maxHeight: '500px', width: '100%'}}
+                alt="last"/>
             </Grid>
 
         </>

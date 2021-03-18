@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
         borderBottom: '1px solid white',
         transition: 'all .5s ease',
         [theme.breakpoints.up('sm')]:{
-          width: 'calc(100% - ${drawerWidth}px)',
+          width: '100%',
           marginLeft: 0,
         } 
       },
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
         transition: 'all .5s ease',
         boxShadow:'1px 1px 2px gray',
         [theme.breakpoints.up('sm')]:{
-          width: 'calc(100% - ${drawerWidth}px)',
+          width: '100%',
           marginLeft: 0,
         }
       },
@@ -150,15 +150,6 @@ const useStyles = makeStyles((theme) => ({
           marginLeft: theme.spacing(3),
           width: 'auto',
         },
-      },
-      searchIcon: {
-        padding: theme.spacing(0, 2),
-        height: '100%',
-        position: 'absolute',
-        pointerEvents: 'none',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
       },
       closemenu: {
         marginLeft: '82%',
