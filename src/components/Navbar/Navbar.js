@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { AppBar, Toolbar, IconButton, Typography, 
-  Badge, Grid, Button, SwipeableDrawer, ListItem, List,ListItemIcon, ListItemText, Divider} from '@material-ui/core';
+  Badge,Button, SwipeableDrawer, ListItem, List, ListItemText} from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search'; 
 import { ShoppingCart, } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';

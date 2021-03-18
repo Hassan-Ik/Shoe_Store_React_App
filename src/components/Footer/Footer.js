@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, Container, Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import useStyles from './style';
 import { Link } from 'react-router-dom';
-import { FormControl, InputLabel, Input, FormHelperText } from '@material-ui/core';
+import { FormControl, InputLabel, Input} from '@material-ui/core';
 
 const Footer = () => {
     const classes = useStyles();

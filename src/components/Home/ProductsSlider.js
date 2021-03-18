@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 //import Slider from 'react-slick';
 import { Card, CardActionArea,CardMedia, CardActions, Typography, Button, Grid } from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
